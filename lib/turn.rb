@@ -34,8 +34,8 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
     user_input = gets.strip
     input_to_index(user_input)
     if index.between? (0,8) && board[index] != " "
-      true
+      return true
    else 
-    false
+    return false
   end
 end 
