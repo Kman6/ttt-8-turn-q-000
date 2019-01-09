@@ -34,5 +34,6 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
     user_input = gets.strip
     input_to_index(user_input)
     
+    move(board, z, value = "X")
      display_board(board)
     end 
