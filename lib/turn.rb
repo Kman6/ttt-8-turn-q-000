@@ -34,6 +34,7 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
     user_input = gets.strip
     input_to_index(user_input)
     if index.between (0, 8) && !position_taken?(board,index)
-  else turn(board)
+  else 
+    turn(board)
   end
 end 
