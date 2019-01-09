@@ -37,7 +37,7 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
     index = input_to_index(user_input)
     valid_move?(board, index)
     
-    
+  
     
      display_board(board)
   end 
