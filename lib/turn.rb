@@ -25,8 +25,8 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
     index= user_input.to_i - 1
   end
   
-  def move(board, z, value = "X")
-  board[z] = value
+  def move(board, index, value = "X")
+  board[index] = value
   end
   
   def turn(board)
