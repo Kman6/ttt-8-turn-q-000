@@ -35,6 +35,6 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
     input_to_index(user_input)
     if index.between (0, 8) && !position_taken?(board,index)
    else 
-    turn(board)
+    false
   end
 end 
